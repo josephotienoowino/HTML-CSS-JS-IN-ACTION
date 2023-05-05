@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imageGallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 align="center">Simple Image Gallery</h1>
+    <div class="gallery">
+      <div class="filters">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+      </div>
+      <div class="grid">
+        <div class="item">
+          <img src="beautiful-flower.jpg" />
+        </div>
+        <div class="item">
+          <img src="beautiful-flowers.jpg" />
+        </div>
+        <div class="item">
+          <img src="hill.jpg" />
+        </div>
+        <!-- Add more image divs as needed -->
+      </div>
+    </div>
+    <div class="gallery" style="margin-top: 40px;">
+      <div class="grid">
+        <div class="item nature">
+          <img src="beautiful.jpg" />
+        </div>
+        <div class="item food">
+          <img src="food2.jpg" />
+        </div>
+        <div class="item nature">
+          <img src="hill.jpg" />
+        </div>
+        <!-- Add more image divs as needed -->
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
